@@ -1,0 +1,61 @@
+//$db = new PDO('mysql:host=localhost;dbname=tpbi', 'root', '');
+//$info = null;
+//
+//function readLines($fileName)
+//{
+//    // Si le fichier est inexistant, on ne continue pas
+//    if (!$file = fopen($fileName, 'r')) {
+//        return;
+//    }
+//    // Tant qu'il reste des lignes à parcourir
+//    while (($line = fgets($file)) !== false) {
+//        // On dit à PHP que cette ligne du fichier fait office de « prochaine entrée du tableau »
+//        yield $line;
+//    }
+//    fclose($file);
+//}
+//
+///*cette fonction renvoie une instance du Generator qui est un iterateur ou objet parcourable
+//je peux parcourir le readLines(nomFichier) ce qui permet a php de garder en memoire une ligne a la fois*/
+//
+//$chemin = "C:\\test.txt";
+//$generator = readLines($chemin);
+//
+//$file = './test.txt';
+//$var = file_get_contents($file);
+//
+//$lines = explode("\n",$var);
+//
+//
+//
+//foreach ($lines as $line) {
+//    # opération sur la ligne
+//
+//    for ($i = 1; $i <= 4; $i++) {
+//        switch ($i) {
+//            case 1:
+//                $line = $info;
+//                $q = $db->prepare('INSERT INTO etudiant(id) VALUES(:id)');
+//                $q->bindValue(':id', $info, PDO::PARAM_INT);
+//                echo 'id ajouté <br/>';
+//                var_dump($lines);
+//                break;
+//            case 2:
+//                $line = $info;
+//                $q = $db->prepare('INSERT INTO etudiant(nom) VALUES(:nom)');
+//                $q->bindValue(':nom', $info);
+//                break;
+//            case 3:
+//                $line = $info;
+//                $q = $db->prepare('INSERT INTO etudiant(prenom) VALUES(:prenom)');
+//                $q->bindValue(':prenom', $info);
+//                break;
+//            case 4:
+//                $line = $info;
+//                $q = $db->prepare('INSERT INTO etudiant(sexe) VALUES(:sexe)');
+//                $q->bindValue(':sexe', $info);
+//                break;
+//        }
+//    }
+//}
+//
