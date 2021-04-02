@@ -38,6 +38,16 @@ class ExtractManager extends Manager{
         return $this->xtracted;
 
     }
+
+    public function getXtractedDatas(){
+        $con = $this->dbConnect();
+
+        $r = $con->query("SELECT * FROM etudiant ORDER BY nom");
+        $r->execute();
+
+        return $r;
+    }
+
     public function setXtracted($xtracted){
         if (is_bool($xtracted))
         $this->$xtracted = $xtracted;

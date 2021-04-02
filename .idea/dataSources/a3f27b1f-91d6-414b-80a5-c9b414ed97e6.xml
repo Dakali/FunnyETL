@@ -1069,24 +1069,5 @@
       <ObjectGrants>ALL PRIVILEGES!
 </ObjectGrants>
     </user>
-    <table id="340" parent="12" name="etudiant"/>
-    <column id="341" parent="340" name="matricule">
-      <Position>1</Position>
-      <DataType>varchar(11)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="342" parent="340" name="nom">
-      <Position>2</Position>
-      <DataType>varchar(20)|0s</DataType>
-    </column>
-    <column id="343" parent="340" name="niveau">
-      <Position>3</Position>
-      <DataType>varchar(4)|0s</DataType>
-    </column>
-    <key id="344" parent="340" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>matricule</ColNames>
-      <Primary>1</Primary>
-    </key>
   </database-model>
 </dataSource>

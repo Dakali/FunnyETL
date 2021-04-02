@@ -56,7 +56,7 @@
 <!--                    <li><a href="./project.html" title="">Project</a></li>-->
                     <li>
                         <p>
-                            <a href="./components.html" class="btn btn-default navbar-btn" title="">About</a>
+                            <a href="" class="btn btn-default navbar-btn" title="">About</a>
                         </p>
                     </li>
 
@@ -68,112 +68,6 @@
 
 <?= $content ;?>
 
-<div class="section-container">
-    <div class="container text-center">
-        <div class="row section-container-spacer">
-            <div class="col-xs-12 col-md-12">
-                <h2>Partners</h2>
-                <p>They help us</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <img src="../Public/assets/Img" alt="Rozorus"
-                     class="reveal img-responsive reveal-content image-center">
-                <h3>Rozorus</h3>
-                <h4>Dev</h4>
-                <p>passionate about everything</p>
-                <p>
-                    <a href="https://facebook.com/" class="social-round-icon fa-icon" title="">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://twitter.com/" class="social-round-icon fa-icon" title="">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/" class="social-round-icon fa-icon" title="">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                </p>
-            </div>
-
-
-        </div>
-    </div>
-</div>
-
-<div class="section-container">
-    <div class="container text-center">
-        <div class="row section-container-spacer">
-            <div class="col-xs-12 col-md-12">
-                <h2 class="text-center">Customers</h2>
-                <p>The Trust us</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-4">
-                <img src="../Public/assets/Img" alt="ISJ" class="img-responsive reveal-content image-center">
-
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <img src="../Public/assets/Img" alt="Eukoenu" class="img-responsive reveal-content image-center">
-
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="section-container contact-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-12">
-                <div class="section-container-spacer">
-                    <h2 class="text-center">Contact</h2>
-                    <p class="text-center">Propositions of ameliorations? Submit them by Sending us a message</p>
-                </div>
-                <div class="card-container">
-                    <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
-                        <form action="" class="reveal-content">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <div class="form-group">
-                                        <label for="email"></label><input type="email" class="form-control" id="email" placeholder="Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" rows="3"
-                                                  placeholder="Enter your message"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">Send message</button>
-                                </div>
-                                <div class="col-md-5">
-                                    <ul class="list-unstyled address-container">
-                                        <li>
-                        <span class="fa-icon">
-                          <i class="fa fa-phone" aria-hidden="true"></i>
-                        </span>
-+ 237 6 93 93 97 96
-</li>
-                                        <li>
-                        <span class="fa-icon">
-                          <i class="fa fa fa-map-o" aria-hidden="true"></i>
-                        </span>
-Yaoundé, C'est la base
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="card-image col-xs-12" style="background-image: url('Public/assets/Img/')">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <script>
     document.addEventListener("DOMContentLoaded", function (event) {
